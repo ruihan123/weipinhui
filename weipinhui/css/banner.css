@@ -1,0 +1,49 @@
+.banner{
+	height: 450px;
+	background: url(../img/bg.jpg) no-repeat;
+	background-position: center center;
+	background-size: 2000px 450px;
+}
+.banner .imageBox{
+	width: 960px;
+	height: 400px;
+	background: rgba(255,255,255,0.9);
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+.banner .imageList{
+	width: 100%;
+	height: 40px;
+	background: white;
+	position: absolute;
+	bottom: 0;
+	list-style: none;
+}
+.banner .item{
+	float: left;
+	width: 20%;
+	color: #666;
+	line-height: 40px;
+	font-size: 12px;
+	text-align: center;
+}
+.imageList .item img{
+	width: 940px;
+	height: 350px;
+	position: absolute;
+	left: 10px;
+	top: -350px;
+	opacity: 0;
+	transition: all 1s;
+	z-index: 5;
+}
+
+.imageList .item:nth-child(1) img{
+	opacity: 1;
+}
+
+.imageList .item:hover img{
+	opacity: 1;
+	z-index: 7;
+}

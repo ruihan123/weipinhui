@@ -1,0 +1,56 @@
+.content{
+	width: 960px;
+	margin: 100px auto;
+	border-top: 1px solid lightgray;
+	position: relative;
+}
+.content .title{
+	width: 320px;
+	height: 50px;
+	background: white;
+	text-align: center;
+	font-size: 25px;
+	line-height: 50px;
+	font-weight: 900;
+	color: #666666;
+	position: absolute;
+	top: -25px;
+	left: 320px;
+}
+.content .clothes{
+	list-style: none;
+	margin-top: 50px;
+}
+.content .item{
+	width: 50%;
+	float: left;
+	height: 300px;
+	position: relative;
+}
+.content .item img{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.content .item .img{
+	height: 95%;
+	width: 95%;
+}
+.content .item:hover .img{
+	/*设置图片滤镜效果*/
+	filter:blur(3px);
+	cursor: pointer;
+}
+.content .item .detailImg{
+	height: 80%;
+	width: 80%;
+	border-radius: 5px;
+	display: none;
+}
+.content .item:hover .detailImg{
+	cursor: pointer;
+	display: block;
+}

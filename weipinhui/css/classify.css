@@ -1,0 +1,19 @@
+.classify{
+	height: 40px;
+	background: rgb(244,0,128);
+}
+.classify .classList{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	list-style: none;
+	color: white;
+	line-height: 40px;
+}
+.classList .classItem{
+	float: left;
+	margin: 0 15px;
+}
+#otherClass{
+	float: right;
+}
